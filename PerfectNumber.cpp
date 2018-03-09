@@ -6,7 +6,7 @@
         int N , Sum = 0;
         printf("Enter a number: ");
         scanf("%d" , &N);
-        for(int i = 1 ; i <= N ;++i){
+        for(int i = 1 ; i < N ;++i){
             if(N%i == 0){
                 Sum += i;
             }
